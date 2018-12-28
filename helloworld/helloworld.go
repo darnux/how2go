@@ -1,6 +1,9 @@
 package main
-import "fmt"
+import (
+  "fmt"
+  "github.com/darnux/how2go/stringutil"
+)
 
-func main(){
-  fmt.Printf("Hello, world!\n")
+func main() {
+  fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
